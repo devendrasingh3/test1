@@ -1,4 +1,4 @@
-function newRelicjs() {
+
     console.log("newRelic", Date.now());
     window.NREUM || (NREUM = {}),
       (__nr_require = (function(t, e, n) {
@@ -1343,6 +1343,3 @@ function newRelicjs() {
           : document.getElementById("newrelicAppId").content,
       sa: 1
     };
-  }
-  export default newRelicjs;
-  
